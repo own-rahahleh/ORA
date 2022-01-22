@@ -1,5 +1,4 @@
-import "nextra-theme-docs";
-
-export default function Nextra({ component, pageProps }) {
-  return <component {...pageProps} />;
+import "nextra-theme-docs/style.css";
+export default function Nextra({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
